@@ -37,6 +37,9 @@ Optionally, you may wish to bring a file of your own data. Ideally this is a sim
 ### Where/When:
 Working on details, but likely Saturday afternoon April 1st, Vancover, B.C.
 
+## Etherpad:
+http://pad.software-carpentry.org/2017-04-01-SAA
+
 ### Thanks:
 Thanks to Tobi Brimsek of the Society of American Archaeology for organisational support. Thanks to Microsoft, OpenContext, RStudio, and Data Carpentry for financial and other support to make this workshop possible. 
 
