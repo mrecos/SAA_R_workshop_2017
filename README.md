@@ -59,7 +59,9 @@ the display of sexual or violent images
 * publication of private communication without consent
 
 Behaviour not explicitly mentioned above may still constitute harassment. The list above should not be taken as exhaustive but rather as a guide to make it easier to enrich all of us and the communities in which we participate. All workshop interactions should be professional regardless of location: harassment is prohibited whether it occurs on- or offline, and the same standards apply to both.
+
 Enforcement of the Code of Conduct will be respectful and not include any harassing behaviors.
+
 Thank you for helping make this a welcoming, friendly community for all.
 
 *This code of conduct is an direct adaptation of the one used by the Data Carpentry and Software Carpentry Foundation and is a modified version of that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki. Contributors to this document: Adam Obeng, Aleksandra Pawlik, Bill Mills, Carol Willing, Erin Becker, Hilmar Lapp, Kara Woo, Karin Lagesen, Pauline Barmby, Sheila Miguez, Simon Waldman, Tracy Teal.*
