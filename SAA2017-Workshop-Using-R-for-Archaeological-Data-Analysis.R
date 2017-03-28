@@ -1154,15 +1154,17 @@ jerimalai_lithics_chi_sq_test_result$residuals
     filter(Type == "Rudist bearing limestones")
   
   # we need to create a new type of object, 'Planar point pattern'
+  pottery_in_Flysch_coords <- st_coordinates(pottery_in_Flysch)
   pottery_in_Flysch_ppp <- 
-    as.ppp(st_coordinates(pottery_in_Flysch),
-           owin(range(st_coordinates(pottery_in_Flysch)[ , "X"]),
-                range(st_coordinates(pottery_in_Flysch)[ , "Y"])))
+    as.ppp(pottery_in_Flysch_coords,
+           owin(range(pottery_in_Flysch_coords[ , "X"]),
+                range(pottery_in_Flysch_coords[ , "Y"])))
   
+  pottery_in_Rudist_coords <- st_coordinates(pottery_in_Rudist),
   pottery_in_Rudist_ppp <- 
-    as.ppp(st_coordinates(pottery_in_Rudist),
-           owin(range(st_coordinates(pottery_in_Rudist)[ , "X"]),
-                range(st_coordinates(pottery_in_Rudist)[ , "Y"])))
+    as.ppp(pottery_in_Rudist_coords,
+           owin(range(pottery_in_Rudist_coords[ , "X"]),
+                range(pottery_in_Rudist_coords[ , "Y"])))
   
   # compute Ripley's K for randomness of point distribution
   pottery_in_Flysch_ppp_K <- envelope(pottery_in_Flysch_ppp, Kest, global=TRUE)

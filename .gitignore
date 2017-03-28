@@ -33,4 +33,5 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 
-/install_packages/
+/install_packages/bin/
+/install_packages/src/
