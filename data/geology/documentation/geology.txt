@@ -1,0 +1,11 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset is a set of vector polygons and an attribute table. It contains information about the main bedrock units on the Greek island of Antiktyhera as mapped by the Antikythera Survey Project in 2005-7 (www.ucl.ac.uk/asp). The dataset is in shapefile, with a full set of metadata in an accompanying .xml file and briefer metadata provided in this .txt file. It is provided under a Creative Commons CC BY 3.0 license (http://creativecommons.org/licenses/by/3.0/). For brief information on individual data fields in the dataset attribute table, please refer to the attribute field dictionary below:
+
+"Area" - area in square metres
+
+"Type" - broad type of bedrock unit
+
+"Age" - approximate age of the bedrock unit
